@@ -4,7 +4,7 @@ A library that includes functions for solving equations and tasks using formulas
 # Installition
 * Using DUB in console:
 ```bash
-dub add simple_math
+dub add simple-math
 ```
 
 * Using `dub.json`:
