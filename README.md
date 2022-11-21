@@ -4,19 +4,19 @@ A library that includes functions for solving equations and tasks using formulas
 # Installition
 * Using DUB in console:
 ```bash
-dub add simple-math
+dub add simple_math
 ```
 
 * Using `dub.json`:
 ```json
 "dependecies": {
-	"simple-math": "~>1.0.0"
+	"simple-math": "~>1.1.0"
 }
 ```
 
 * Using `dub.sdl`:
 ```bash
-dependency "simple-math" version="~>1.0.0"
+dependency "simple-math" version="~>1.1.0"
 ```
 
 # Tools
@@ -181,10 +181,18 @@ Finds the sine of the angle by its degree measure.
 * `public double cosine(T)(T angleMeasure)`\
 Finds the cosine of the angle by its degree measure.
 
+* `public double tangents(T)(T angleMeasure)`\
+Finds the tangents of the angle by its degree measure.
+
+* `public double cotangents(T)(T angleMeasure)`\
+Finds the cotangents of the angle by its degree measure.
+
 #### Example
 ```d
 assert(sine(30) == 0.5);
 assert(cosine(60) == 0.5);
+assert(tangents(45) == 1);
+assert(cotangents(45) == 1);
 ```
 
 # Feedback

@@ -1,10 +1,10 @@
 {
-	"authors": [
-		"Dallas"
-	],
-	"copyright": "Copyright 2022 Dallas",
-	"description": "A library that includes functions for solving equations and tasks using formulas from a school mathematics course.",
-	"license": "Apache-2.0",
-	"name": "simple-math",
-	"targetType": "library"
+    "authors": [
+        "Dallas"
+    ],
+    "copyright": "Copyright 2022 Dallas",
+    "description": "Includes functions for solving equations and tasks using formulas from a school mathematics course.",
+    "license": "Apache-2.0",
+    "name": "simple-math",
+    "targetType": "library"
 }

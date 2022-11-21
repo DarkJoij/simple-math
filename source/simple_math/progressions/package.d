@@ -14,10 +14,7 @@
  * limitations under the License.
  */
 
-module simple_math;
+module simple_math.progressions;
 
-public import simple_math.chances;
-public import simple_math.percents;
-public import simple_math.progressions;
-public import simple_math.trigonometry;
-public import simple_math.square_equations;
+public import simple_math.progressions.arithmetical;
+public import simple_math.progressions.geometrical;
