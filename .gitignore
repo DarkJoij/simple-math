@@ -1,0 +1,17 @@
+# Object files
+*.o
+*.obj
+
+# Library files:
+*.a
+*.lib
+
+# Executable:
+simple-math-test-library
+
+# DUB folders and files:
+.dub
+docs.json
+__dummy.html
+docs/
+tests/
